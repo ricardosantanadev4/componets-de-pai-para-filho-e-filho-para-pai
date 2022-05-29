@@ -1,0 +1,10 @@
+<div class="container">
+    <h1>Component pai</h1>
+    <section>
+        <p>{{textOne}}</p>
+    </section>
+    <section>
+        <!-- exibe o component filho no component paia passando como parametro a variavel textTwo  -->
+        <app-filho [textTwo]="textTwo"></app-filho>
+    </section>
+</div>
